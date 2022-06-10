@@ -5,12 +5,17 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "backend": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kimhyeonju",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
